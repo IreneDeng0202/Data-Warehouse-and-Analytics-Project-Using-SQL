@@ -2,15 +2,15 @@
 This project demonstrates a comprehensive **data warehousing and analytics solution**, covering the entire workflow from **data ingestion** to **insight generation**.
 
 ## **Key Components**
-- **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
-- **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-- **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-- **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+- **📂Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
+- **⚙️ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
+- **📊 Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
+- **📈Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
 ---
 # 2.Project Requirements
 ## 2.1.Building the Data Warehouse (Data Engineering)
-### Objective
+### 🎯 Objective
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 ### Specifications
@@ -23,7 +23,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 ---
 
 ## 2.2 BI: Analytics & Reporting (Data Analysis)
-### Objective
+### 🎯 Objective
 Develop SQL-based analytics to deliver detailed insights into:
 - **Customer Behavior**
 - **Product Performance**
