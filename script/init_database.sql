@@ -49,7 +49,8 @@ DROP SCHEMA silver;
 GO
 
 IF EXISTS
-  (SELECT 1FROM sys.schemas
+  (SELECT 1
+    FROM sys.schemas
    WHERE name = 'gold')
 DROP SCHEMA gold;
 
@@ -58,7 +59,7 @@ GO
 IF exists
   (SELECT 1
    FROM sys.schemas
-   WHERE name='broze')
+   WHERE name='bronze')
 DROP SCHEMA broze;
 
 GO
