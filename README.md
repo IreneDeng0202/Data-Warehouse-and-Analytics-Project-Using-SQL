@@ -36,5 +36,29 @@ These insights empower stakeholders with key business metrics, enabling strategi
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
 ![image](https://github.com/user-attachments/assets/c4c6d5de-d0dc-4fcf-9d34-a571c4fa641f)
 
+---
+# 4. Repository Structure
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
+│   ├── data_models.drawio              # Draw.io file for data models (star schema)
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+
+
+
+
 
 
