@@ -12,72 +12,29 @@ WARNING:
 */
 
 USE master;
-
 GO
 
---drop and recreate the 'datawarehouse' database
-IF exists
-  (SELECT 1
-   FROM sys.databases
-   WHERE name='datawarehouse') BEGIN
-ALTER DATABASE datawarehouse
-SET single_user WITH
-ROLLBACK IMMEDIATE;
-
-
-DROP DATABASE datawarehouse;
-
+-- Drop and recreate the 'DataWarehouse' database
+IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
+BEGIN
+    ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE DataWarehouse;
 END;
-
 GO
 
--- Create Database 'Datawarehouse'
-
-CREATE DATABASE datawarehouse;
-
+-- Create the 'DataWarehouse' database
+CREATE DATABASE DataWarehouse;
 GO
 
-USE datawarehouse;
-
---drop and recreate schemas
- IF EXISTS
-  (SELECT 1
-   FROM sys.schemas
-   WHERE name = 'silver')
-DROP SCHEMA silver;
-
+USE DataWarehouse;
 GO
 
-IF EXISTS
-  (SELECT 1
-    FROM sys.schemas
-   WHERE name = 'gold')
-DROP SCHEMA gold;
-
+-- Create Schemas
+CREATE SCHEMA bronze;
 GO
-
-IF exists
-  (SELECT 1
-   FROM sys.schemas
-   WHERE name='bronze')
-DROP SCHEMA broze;
-
-GO
-
--- create Schema
 
 CREATE SCHEMA silver;
-
 GO
-
 
 CREATE SCHEMA gold;
-
 GO
-
-
-CREATE SCHEMA bronze;
-
-GO
-
-
