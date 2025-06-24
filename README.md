@@ -24,12 +24,12 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ## 2.2 BI: Analytics & Reporting (Data Analysis)
 ### 🎯 Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
+Conduct exploratory data analysis (EDA) and advanced analytics to generate actionable insights for sales, customer, and product datasets:
+- **Exploratory Data Analysis (EDA)**:Database exploration, dimension exploration, date exploration, measure exploration, magnitude analysis, and ranking analysis
+- **Advanced Analytics**:Change-over-time analysis, cumulative analysis, performance analysis, part-to-whole analysis, data segmentation, and consolidated reporting.
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+These insights inform stakeholders with key business metrics that enable strategic decision-making.
 
 ----
 # 3.Data Architecture
