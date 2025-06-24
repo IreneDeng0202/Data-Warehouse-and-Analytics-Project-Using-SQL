@@ -1,27 +1,18 @@
 ## Data Analytics Scope
-This Analytics process covers exploratory data analysis (EDA) and advanced analytics to generate actionable insights for customers:
+This Analytics process covers exploratory data analysis (EDA) and advanced analytics to generate actionable insights for customers datasets:
 
 ### Exploratory Data Analysis (EDA)
 - **Database Exploration**: To explore the structure of the database and inspect the columns and metadata for specific tables.
-- **Dimensions Exploration**: Analyzed categorical features to understand data distributions and relationships.
+- **Dimensions Exploration**: To explore the structure of dimension tables.
+- **Date Exploration**: To understand the range of historical data and determine the temporal boundaries of key data points.
+- **Measures Exploration**: To calculate aggregated metrics for quick insights.
+- **Magnitude Analysis**: To quantify data and group results by specific dimensions.
+- **Ranking Analysis**: To rank items based on performance or other metrics.
 
-- **Date Exploration**: Explored temporal patterns and trends across application, disbursement, and repayment dates.
-
-- **Measures Exploration**: Investigated key numeric indicators (e.g. funded amounts, interest rates, debt-to-income ratios).
-
-- **Magnitude Analysis**: Assessed the size and scale of various loan metrics to identify outliers and patterns.
-
-- **Ranking Analysis**: Identified top-N and bottom-N performing loans, borrowers, and regions based on key metrics.
-
-### Advanced Analytics
-- **Change-Over-Time Analysis**: Tracked loan portfolio trends across months and years to uncover seasonality and growth patterns.
-
-- **Cumulative Analysis**: Calculated cumulative metrics to evaluate overall portfolio performance and repayment progress.
-
-- **Performance Analysis**: Assessed key performance indicators such as loan approval rates, repayment rates, and risk exposure.
-
-- **Part-to-Whole (Proportional Analysis)**: Analyzed how loan categories, borrower segments, and regions contribute to overall portfolio composition.
-
-- **Data Segmentation**: Segmented data by demographics, loan characteristics, and geography for deeper insights.
-
-- **Reporting**: Delivered dynamic reports and dashboards to visualize findings and support business decisions.
+  ### Advanced Analytics
+- **Change-Over-Time Analysis**:To track trends, growth, and changes in key metrics over time(time-series analysis to identify seasonality)
+- **Cumulative Analysis**:To calculate running totals or moving averages for key metrics.
+- **Performance Analysis**: To measure the performance of products, customers, and regions Year-over-Year, Month-over-Month.
+- **Part-to-Whole (Proportional Analysis)**: To compare performance or metrics across dimensions or time periods.
+- **Data Segmentation**: To group data into meaningful categories for targeted insights (customer segmentation, product categorization).
+- **Reporting**: To consolidates key customer metrics for customers and products.
