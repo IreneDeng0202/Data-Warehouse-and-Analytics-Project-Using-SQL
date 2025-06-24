@@ -9,7 +9,7 @@ This Analytics process covers exploratory data analysis (EDA) and advanced analy
 - **Magnitude Analysis**: To quantify data and group results by specific dimensions.
 - **Ranking Analysis**: To rank items based on performance or other metrics.
 
-  ### Advanced Analytics
+### Advanced Analytics
 - **Change-Over-Time Analysis**:To track trends, growth, and changes in key metrics over time(time-series analysis to identify seasonality)
 - **Cumulative Analysis**:To calculate running totals or moving averages for key metrics.
 - **Performance Analysis**: To measure the performance of products, customers, and regions Year-over-Year, Month-over-Month.
