@@ -1,5 +1,5 @@
 ## Data Analytics Scope
-This Analytics process covers exploratory data analysis (EDA) and advanced analytics to generate actionable insights for customers and products datasets:
+This Analytics process covers exploratory data analysis (EDA) and advanced analytics to generate actionable insights for sales,customers,and products datasets:
 
 ### Exploratory Data Analysis (EDA)
 - **Database Exploration**: To explore the structure of the database and inspect the columns and metadata for specific tables.
