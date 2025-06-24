@@ -48,12 +48,14 @@ data-warehouse-project/
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
 │   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│
+│   ├── data_analytics.md               # Data analytics scope and methodology
+
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
-│
+│   ├── data_analytics/                 # Scripts for EDA and advanced analytics
+
 ├── tests/                              # Test scripts and quality files
 │
 ├── README.md                           # Project overview and instructions
